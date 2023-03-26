@@ -37,15 +37,7 @@ request(url, (error, response, body) => {
 //     if (error) {
 //       console.log(`Failed to request details: ${error}`, null);
 //     } else if (response.statusCode !== 200) {
-//       console.log(`Invalid response status code ${response.statusCode} for ${url}`);
-//     } else {
-//       fs.writeFile(filePath, body, (err) => {
-//         if (err) {
-//           console.log(`Error saving to ${filePath}: ${err}`);
-//         } else {
-//           console.log(`Downloaded and saved  `);
-//         }
-
+//       console.log(`Invalid response status code $
 
 
 
