@@ -2,7 +2,7 @@ const request = require('request');
 const fs = require('fs');
 
 const breedName = process.argv[2];
-const filePath = "siberian.json";
+//const filePath = "siberian.json";
 const url = `https://api.thecatapi.com/v1/breeds/search?q=${breedName}`;
 
 //const fetchBreedDescription = (breedName, callback) => {
@@ -17,7 +17,7 @@ request(url, (error, response, body) => {
    // console.log(typeof body);
     const data = JSON.parse(body);
     console.log(data[0].description);
-    console.log(typeof data);
+    //console.log(typeof data);
 
     // fs.writeFile(filePath, body, (err) => {
     //   if (err) {
